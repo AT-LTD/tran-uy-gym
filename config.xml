@@ -7,8 +7,8 @@
     <name>Tran Uy Gym</name>
     <description>Tran Uy Gym app provides you with information about Tran Uy Gym center including exercises, schedule and member registration</description>
 	<author href="tranuygym.com" email="sherryhuynh8493@gmail.com">Tran Uy Gym</author>
-	<gap: platform name="android" />
-	<gap: platform name="winphone" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
 	<preference name="phonegap-version" value="3.3.0" />
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
