@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = ""
+	versionCode="1"
+	version   = "1.0">
+    <name>Tran Uy Gym</name>
+    <description>Tran Uy Gym app provides you with information about Tran Uy Gym center including exercises, schedule and member registration</description>
+	<author href="tranuygym.com" email="sherryhuynh8493@gmail.com">Tran Uy Gym</author>
+	<gap: platform name="android" />
+	<gap: platform name="winphone" />
+	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value="false" />
+	<preference name="android-minSdkVersion" value="14" />
+	<preference name="android-installLocation" value="external" />
+	<preference name="BackgroundColor" value="0xffffffff "/>
+	<preference name="KeepRunning" value="true"/>
+	<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<gap:plugin name="org.apache.cordova.camera"  />
+	<gap:plugin name="org.apache.cordova.geolocation"  />
+	<gap:plugin name="org.apache.cordova.dialogs"  />
+	<gap:plugin name="org.apache.cordova.device"  />
+	<gap:plugin name="org.apache.cordova.network-information"  />
+	<gap:plugin name="org.apache.cordova.console"  />
+	<gap:plugin name="org.apache.cordova.inappbrowser"  />
+	<gap:plugin name="org.apache.cordova.network-information"  />
+	<gap:plugin name="org.apache.cordova.splashscreen"  />
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
+	<access origin="*" subdomains="true" />
+</widget>

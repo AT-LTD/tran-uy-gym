@@ -1,0 +1,63 @@
+<div ng-controller="HomeController">
+   
+<!--     <div id="carousel-example" class="carousel slide"
+    data-ride="carousel" data-interval="{{myInterval}}">
+        <ol class="carousel-indicators">
+            <li ng-repeat="slide in slides" data-target="#carousel-example-generic" data-slide-to="{{$index}}" ng-class="{active:$first}"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item" ng-class="{active:$first}" ng-repeat="slide in slides">
+                <img ng-src="{{slide.image}}">
+                <div class="carousel-caption">
+                    <h2>Title</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+      
+        </div>
+        <a class="left carousel-control" href="#carousel-example" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
+        <a class="right carousel-control" href="#carousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+    </div>
+ -->
+    <div id="slides_control" class="section">
+        <div>
+            <carousel interval="myInterval" class="hidden-sm hidden-xs">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                  <img ng-src="{{slide.image}}">
+                  <div class="carousel-caption">
+                    <h4>Slide {{$index+1}}</h4>
+                  </div>
+                </slide>
+            </carousel>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-sx-6"><a href="#/schedule">
+                    <h2 class="text-center">Find a class</h2>
+                    <img src="img/home1.jpg"
+                    class="img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-6 col-sx-6"><a href="#/register">
+                    <h2 class="text-center">Train with us</h2>
+                    <img src="img/home2.jpg"
+                    class="img-responsive"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sx-6"><a href="#/service">
+                    <h2 class="text-center">Become a member</h2>
+                    <img src="img/home3.jpg"
+                    class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sx-6"><a href="#/register">
+                    <h2 class="text-center">Register</h2>
+                    <img src="img/register.jpg"
+                    class="img-responsive"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

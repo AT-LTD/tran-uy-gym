@@ -1,0 +1,86 @@
+<div ng-controller="LoginCtrl"> 
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                        <div class="panel-heading">Join us to get the lastest news of Tran Uy Gym</div>
+                        <div class = "panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label class="control-label">Username (Email or Member No)</label>
+                                <input class="form-control"
+                                id="InputUsername" placeholder="Enter email" type="email">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Password</label>
+                                <input class="form-control" id="InputPassword"
+                                placeholder="Password" type="password">
+                            </div>
+
+                            <button class="btn btn-warning" align="right" onclick="LoginFunction()">Log In</button>
+                            <button type="submit" class="btn btn-primary" align="right" onclick="RegisterFunction()">Register</button>
+                            </br>
+                            </br>
+                            <a href="#/register">Haven't had an account? Register here!</a>
+
+                            <script type="text/javascript">
+                                function LoginFunction() {
+                                    var username = document.getElementById('InputUsername').value;
+                                    var pwd = document.getElementById('InputPassword').value;    
+                                    
+                                    Parse.User.logIn(username, pwd, {
+                                      success: function(user) {
+                                        // Do stuff after successful login.
+                                        console.log('login successful');
+                                      },
+                                      error: function(user, error) {
+                                        // The login failed. Check error to see why.
+                                        console.log('login failed');
+                                        window.alert("Login failed! Please check again your username and password.");
+                                        console.log(error);
+
+                                      }
+                                    });
+                                }
+
+                            </script>
+                            <script>
+                                function RegisterFunction() {
+                                    var username = document.getElementById('InputUsername').value;
+                                    var pwd = document.getElementById('InputPassword').value;    
+                                    var user = new Parse.User();
+                                    user.set("username", username);
+                                    user.set("password", pwd);
+                                    user.set("email", username);
+
+                                    
+
+                                    user.signUp(null, {
+                                      success: function(user) {
+                                        // Hooray! Let them use the app now.
+                                        console.log('signup successful');
+                                      },
+                                      error: function(user, error) {
+                                        console.log('signup failed');
+                                        console.log(error);
+                                      }
+                                    });
+                                }
+                            </script>
+                        </form>
+                    </div>
+
+                    </div>
+                   
+                    <div class="col-md-4">
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    

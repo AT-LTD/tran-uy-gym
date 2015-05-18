@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Tran Uy Gym</title>
+
+
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <script src="js/parse-1.4.2.min.js"></script>
+
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+        <script data-require="angular.js@*" data-semver="1.2.22" src="js/angular.js"></script>
+
+        <script src="js/angular-route.min.js"></script>
+
+        <script type="text/javascript" src="js/smart-table.min.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/ui-bootstrap-tpls-min.js"></script>
+
+        <script src="js/app.js"></script>
+
+        <script src="js/controller.js"></script>
+    </head>
+    
+    <body ng-app="myApp" onload="myFunction()">
+
+        <div ng-include src="'partials/header.html'"></div>
+
+        <div ng-view></div>
+
+        <div ng-include src="'partials/footer.html'"></div>
+        
+        <!-- Initialise connection with parse - backend service using Application key and Javascript keys-->
+        <script type="text/javascript">
+         function myFunction() {
+            Parse.initialize("shVqjFDj4wVn72LWtKgZT8aiLfsGQrqK1rib5FI2", "R1j9QFqM6GfGwdrJnCDoTViW5K1vSWtzLRTVsAN6");
+            console.log('Parse init');
+         }
+         </script>
+    </body>
+
+</html>

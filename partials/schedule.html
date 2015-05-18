@@ -1,0 +1,107 @@
+<div ng-controller="ScheduleController">
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="sche-filter">
+                    <label for="exercise">Select Exercise:</label>
+                    <select id="exercise" ng-model="selectedExercise">
+                        <option value="">All exercises</option>
+                        <option value="Gym">Gym</option>
+                        <option value="Aerobic">Aerobic</option>
+                        <option value="Yoga">Yoga</option>
+                        <option value="Martial Art">Martial Art</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form class="sche-filter">
+                    <label for="instructor">Select Instructor:</label>
+                    <select id="instructor" ng-model="selectedInstructor">
+                        <option value="">All exercises</option>
+                        <option value="Gym">Gym</option>
+                        <option value="Aerobic">Aerobic</option>
+                        <option value="Yoga">Yoga</option>
+                        <option value="Martial Art">Martial Art</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <table st-table="schedule" class="table table-striped">
+                    <thead>
+                        <tr class="text-center">
+                            <th></th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="row in schedule | filter: selectedExercise">
+                        <td>{{row.hour}}</td>
+                        <td>
+                            {{row.monday.type}}
+                            </br>
+                            {{row.monday.hlv}}
+                            </br>
+                            {{row.monday.duration}}
+                        </td>
+                        <td>
+                            {{row.tuesday.type}}
+                            </br>
+                            {{row.tuesday.hlv}}
+                            </br>
+                            {{row.tuesday.duration}}
+                        </td>
+                        <td>
+                            {{row.wednesday.type}}
+                            </br>
+                            {{row.wednesday.hlv}}
+                            </br>
+                            {{row.wednesday.duration}}
+                        </td>
+                        <td>
+                            {{row.thursday.type}}
+                            </br>
+                            {{row.thursday.hlv}}
+                            </br>
+                            {{row.thursday.duration}}
+                        </td>
+                        <td>
+                            {{row.friday.type}}
+                            </br>
+                            {{row.friday.hlv}}
+                            </br>
+                            {{row.friday.duration}}
+                        </td>
+                        <td>
+                            {{row.saturday.type}}
+                            </br>
+                            {{row.saturday.hlv}}
+                            </br>
+                            {{row.saturday.duration}}
+                        </td>
+                        <td>
+                            {{row.sunday.type}}
+                            </br>
+                            {{row.sunday.hlv}}
+                            </br>
+                            {{row.sunday.duration}}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+</div>

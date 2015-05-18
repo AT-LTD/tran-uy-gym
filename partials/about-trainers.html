@@ -1,0 +1,60 @@
+<div ng-controller="AboutTrainersCtrl">
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h1>Our Team
+                                <br/>
+                                <font color="#777777">
+                                    <span style="font-size: 23.3999996185303px; line-height: 23.3999996185303px;">We are group of skilled and enthusiastic trainers</span>
+                                </font>
+                            </h1>
+                        </div>
+                        <div class="section">
+                            <div class="container">
+                                <div class="row" ng-repeat="item in trainers">
+                                    <div class="col-md-2">
+                                        <img src="{{imgsrc}}" class="img-circle img-responsive"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="text-left">{{item.name}}</h3>
+                                        <p class="text-left">{{item.class}}</p>
+                                        <p class="text-left">{{item.description}}</p>
+                                    </div>
+                                   <!--  <div class="col-md-2">
+                                        <img src="img/person.jpg" class="img-circle img-responsive"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="text-left">Uy Tran</h3>
+                                        <p class="text-left">Personal Trainer</p>
+                                        <p class="text-left">Description abc abc</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="img/person.jpg" class="img-circle img-responsive"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="text-left">John Tran</h3>
+                                        <p class="text-left">Martial Art Master</p>
+                                        <p class="text-left">Description abc abc</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="img/person.jpg" class="img-circle img-responsive"/>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <h3 class="text-left">Anh Pham</h3>
+                                        <p class="text-left">Aerobic Trainer</p>
+                                        <p class="text-left">Description abc abc</p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ </div>

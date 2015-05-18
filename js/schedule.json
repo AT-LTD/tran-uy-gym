@@ -1,0 +1,230 @@
+[
+    {
+    	"hour" : "5:00",
+    	"monday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"tuesday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"wednesday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"thursday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"friday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"saturday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"sunday" : {
+    		"duration": "5:00 - 11:30",
+    		"type" : "Gym",
+	    	"hlv" : "Self Training"
+    	}
+	},
+	{
+    	"hour" : "6:00",
+    	"monday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Lắm"
+    	},
+    	"tuesday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Nhiên"
+    	},
+    	"wednesday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Dung"
+    	},
+    	"thursday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Lắm"
+    	},
+    	"friday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Nhiên"
+    	},
+    	"saturday" : {
+    		"duration": "6:00 - 7:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Dung"
+    	},
+    	"sunday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	}
+	},
+	{
+    	"hour" : "14:00",
+	    "monday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"tuesday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"wednesday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"thursday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"friday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Duy"
+    	},
+    	"saturday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Nguyễn Văn Giây"
+    	},
+    	"sunday" : {
+    		"duration": "14:00 - 20:30",
+    		"type" : "Gym",
+	    	"hlv" : "Self Training"
+    	}
+	},
+	{
+    	"hour" : "17:00",
+	    "monday" : {
+    		"duration": "17:00 - 18:00",
+    		"type" : "Yoga",
+	    	"hlv" : "Hiền"
+    	},
+    	"tuesday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"wednesday" : {
+    		"duration": "17:00 - 18:00",
+    		"type" : "Yoga",
+	    	"hlv" : "Hoa"
+    	},
+    	"thursday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"friday" : {
+    		"duration": "17:00 - 18:00",
+    		"type" : "Yoga",
+	    	"hlv" : "Hau"
+    	},
+    	"saturday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"sunday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	}
+	},
+	{
+    	"hour" : "18:00",
+    	"monday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Lắm"
+    	},
+    	"tuesday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Nhiên"
+    	},
+    	"wednesday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Dung"
+    	},
+    	"thursday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Lắm"
+    	},
+    	"friday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Nhiên"
+    	},
+    	"saturday" : {
+    		"duration": "18:00 - 19:00",
+    		"type" : "Aerobic",
+	    	"hlv" : "Dung"
+    	},
+    	"sunday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	}
+	},
+	{
+    	"hour" : "19:00",
+	    "monday" : {
+    		"duration": "19:00 - 20:00",
+    		"type" : "Martial Art",
+	    	"hlv" : "Tùng"
+    	},
+    	"tuesday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"wednesday" : {
+    		"duration": "19:00 - 20:00",
+    		"type" : "Martial Art",
+	    	"hlv" : "Tùng"
+    	},
+    	"thursday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"friday" : {
+    		"duration": "19:00 - 20:00",
+    		"type" : "Martial Art",
+	    	"hlv" : "Tùng"
+    	},
+    	"saturday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	},
+    	"sunday" : {
+    		"duration": "",
+    		"type" : "",
+	    	"hlv" : ""
+    	}
+	}
+]
