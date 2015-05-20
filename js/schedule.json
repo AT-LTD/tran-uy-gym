@@ -41,192 +41,202 @@
     },
 	{
     	"hour" : "6:00",
-    	"monday" : {
+        "day" : [
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Lắm"
     	},
-    	"tuesday" : {
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Bích"
     	},
-    	"wednesday" : {
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
-	    	"hlv" : "Miss Ngọc"
+	    	"hlv" : "Mr. Vũ"
     	},
-    	"thursday" : {
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Lắm"
     	},
-    	"friday" : {
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Bích"
     	},
-    	"saturday" : {
+    	{
     		"duration": "6:00 - 7:00",
     		"type" : "Aerobic",
-	    	"hlv" : "Miss Ngọc"
+	    	"hlv" : "Mr. Vũ"
     	},
-    	"sunday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	}
+        ]
 	},
 	{
     	"hour" : "14:00",
-	    "monday" : {
+	    "day" : [
+        {
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Duy"
     	},
-    	"tuesday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Giây"
     	},
-    	"wednesday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Duy"
     	},
-    	"thursday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Giây"
     	},
-    	"friday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Duy"
     	},
-    	"saturday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Mr. Giây"
     	},
-    	"sunday" : {
+    	{
     		"duration": "14:00 - 20:30",
     		"type" : "Gym",
 	    	"hlv" : "Self Training"
     	}
+        ]
 	},
 	{
     	"hour" : "17:00",
-	    "monday" : {
+	    "day" : [
+        {
     		"duration": "17:00 - 18:00",
     		"type" : "Yoga",
 	    	"hlv" : "Mrs. Hiền"
     	},
-    	"tuesday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"wednesday" : {
+    	{
     		"duration": "17:00 - 18:00",
     		"type" : "Yoga",
 	    	"hlv" : "Mrs. Hoa"
     	},
-    	"thursday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"friday" : {
+    	{
     		"duration": "17:00 - 18:00",
     		"type" : "Yoga",
 	    	"hlv" : "Mrs. Thủy"
     	},
-    	"saturday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"sunday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	}
+        ]
 	},
 	{
     	"hour" : "18:00",
-    	"monday" : {
+    	"day" : [
+        {
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Bích"
     	},
-    	"tuesday" : {
+    	{
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
-	    	"hlv" : "Miss Ngọc"
+	    	"hlv" : "Mr. Vũ"
     	},
-    	"wednesday" : {
+    	{
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Lắm"
     	},
-    	"thursday" : {
+    	{
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Bích"
     	},
-    	"friday" : {
+    	{
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
-	    	"hlv" : "Miss Ngọc"
+	    	"hlv" : "Mr. Vũ"
     	},
-    	"saturday" : {
+    	{
     		"duration": "18:00 - 19:00",
     		"type" : "Aerobic",
 	    	"hlv" : "Miss Lắm"
     	},
-    	"sunday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	}
+        ]
 	},
 	{
     	"hour" : "19:00",
-	    "monday" : {
+	    "day" : [
+        {
     		"duration": "19:00 - 20:00",
     		"type" : "Martial Art",
 	    	"hlv" : "Mr. Tùng"
     	},
-    	"tuesday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"wednesday" : {
+    	{
     		"duration": "19:00 - 20:00",
     		"type" : "Martial Art",
 	    	"hlv" : "Mr. Vương"
     	},
-    	"thursday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"friday" : {
+    	{
     		"duration": "19:00 - 20:00",
     		"type" : "Martial Art",
 	    	"hlv" : "Mr. Vương"
     	},
-    	"saturday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	},
-    	"sunday" : {
+    	{
     		"duration": "",
     		"type" : "",
 	    	"hlv" : ""
     	}
+        ]
 	}
 ]

@@ -35,6 +35,11 @@
                                       success: function(user) {
                                         // Do stuff after successful login.
                                         console.log('login successful');
+                                        currentUser = user;
+
+                                        console.log(currentUser.get("email"));
+
+                                        window.location.href = window.location.hostname + window.location.pathname + '#/profile-details';
                                       },
                                       error: function(user, error) {
                                         // The login failed. Check error to see why.
@@ -62,9 +67,15 @@
                                       success: function(user) {
                                         // Hooray! Let them use the app now.
                                         console.log('signup successful');
+                                        currentUser = user;
+
+                                        console.log(currentUser.get("email"));
+                                        window.alert("Signed up, now you can login");
+                                        //window.location.href = window.location.hostname + window.location.pathname + '#/profile-details';
                                       },
                                       error: function(user, error) {
                                         console.log('signup failed');
+                                        window.alert("Signup failed!");
                                         console.log(error);
                                       }
                                     });

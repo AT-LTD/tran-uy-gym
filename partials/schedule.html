@@ -2,7 +2,8 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <h2 class="page-header">Schedule of Classes</h2>
+            <div class="col-md-10 col-sm-6">
                 <form class="sche-filter">
                     <label for="exercise">Select Exercise:</label>
                     <select id="exercise" ng-model="selectedExercise">
@@ -14,8 +15,8 @@
                     </select>
                 </form>
             </div>
-            <div class="col-md-6">
-                <form class="sche-filter">
+            <div class="col-md-2 col-sm-6">
+                <!-- <form class="sche-filter">
                     <label for="instructor">Select Instructor:</label>
                     <select id="instructor" ng-model="selectedInstructor">
                         <option value="Giây">Mr. Giây</option>
@@ -29,17 +30,19 @@
                         <option value="Tùng">Mr. Tùng</option>
                         <option value="Vương">Mr. Vương</option>
                     </select>
-                </form>
+                </form> -->
+                <a class="btn btn-primary" align="center" href="#/register-class">Join a class</a>
+            <p></p>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <table st-table="schedule" class="table table-striped">
+            <div class="col-md-12 text-center table-responsive">
+                <table st-table="schedule" class="table table-striped" id="schedule">
                     <thead>
-                        <tr class="text-center">
+                        <tr>
                             <th></th>
                             <th>Monday</th>
                             <th>Tuesday</th>
@@ -56,52 +59,10 @@
                             <td ng-repeat="date in row.day | filter: selectedInstructor" ng-if="$index >= 0">
                                 {{date.type}}
                                 </br>
-                                {{date.hlv}}
-                                </br>
                                 {{date.duration}}
+                                </br>
+                                {{date.hlv}}
                             </td>
-                            <!-- <td>
-                                {{day.tuesday.type}}
-                                </br>
-                                {{day.tuesday.hlv}}
-                                </br>
-                                {{day.tuesday.duration}}
-                            </td> -->
-                            <!-- <td>
-                                {{row.wednesday.type}}
-                                </br>
-                                {{row.wednesday.hlv}}
-                                </br>
-                                {{row.wednesday.duration}}
-                            </td>
-                            <td>
-                                {{row.thursday.type}}
-                                </br>
-                                {{row.thursday.hlv}}
-                                </br>
-                                {{row.thursday.duration}}
-                            </td>
-                            <td>
-                                {{row.friday.type}}
-                                </br>
-                                {{row.friday.hlv}}
-                                </br>
-                                {{row.friday.duration}}
-                            </td>
-                            <td>
-                                {{row.saturday.type}}
-                                </br>
-                                {{row.saturday.hlv}}
-                                </br>
-                                {{row.saturday.duration}}
-                            </td>
-                            <td>
-                                {{row.sunday.type}}
-                                </br>
-                                {{row.sunday.hlv}}
-                                </br>
-                                {{row.sunday.duration}}
-                            </td> -->
                         </tr>
                     </tbody>
                 </table>

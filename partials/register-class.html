@@ -1,0 +1,80 @@
+<div ng-controller="RegisterClassCtrl">
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2 class="page-header text-center">Upcoming classes, join us!</h2>
+                <div class="col-md-8 col-md-offset-2">
+                    <h4>Choose exercise(s) you would like to register:</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped text-center">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>Exercise</td>
+                                    <td>
+                                        Price
+                                        (VND / month)
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="gym" value="200000">
+                                    </td>
+                                    <td>Gym</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="aerobic" value="300000">
+                                    </td>
+                                    <td>Aerobic</td>
+                                    <td>300,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="yoga" value="300000">
+                                    </td>
+                                    <td>Yoga</td>
+                                    <td>300,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="martial" value="200000">
+                                    </td>
+                                    <td>Martial Art</td>
+                                    <td>200,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="personal" value="4800000">
+                                    </td>
+                                    <td>Personal Training</td>
+                                    <td>4,800,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-7">
+                    <h4>Total fee:</h4>
+                    <input type="text" class="form-control" id="result" placeholder="Your total" readonly value="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <button class="btn btn-success register-class" type="submit" align="right">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

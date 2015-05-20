@@ -1,3 +1,6 @@
+
+var currentUser;
+
 var myApp = angular.module('myApp', [
   'ngRoute',
   'centerControllers'
@@ -36,6 +39,14 @@ myApp.config(['$routeProvider', function($routeProvider) {
         when('/contact', {
       templateUrl: 'partials/contact.html',
       controller: 'ContactCtrl'
+    }).
+        when('/profile-details', {
+      templateUrl: 'partials/profile-details.html',
+      controller: 'ProfileCtrl'
+    }).
+    when('/register-class', {
+      templateUrl: 'partials/register-class.html',
+      controller: 'RegisterClassCtrl'
     }).
     when('/', {
       templateUrl: 'partials/home.html',

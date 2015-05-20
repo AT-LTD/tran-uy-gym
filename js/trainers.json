@@ -1,50 +1,132 @@
 [
     {
-     "name": "Tran Uy",
+     "name": "Nguyễn Văn Giây",
+     "class": "Gym",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Training atmosphere is the core effect on your success!”. I want to help my clients feel joyful, happy and confident in their everyday communications by transforming their body and improving their health through practicing fitness.",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Teach physical education at High School for the Gifted – Ho Chi Minh City National University. Experience in training football, swimming and fitness. 11-year experience in practicing and competing sports."
+          ],
+     "imgsrc": "img/trainers/trainer1.png"
+     },
+     {
+     "name": "Đỗ Quang Duy",
+     "class": "Gym",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "Friendly, humorous and exciting. I always put clients’ fitness goals on top to help them quickly get their goals. My specialty is exercises focusing on muscle gain, fat loss, physical health and firming body.",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Six-year experience in practicing and competing football and swimming. Seven-year experience in practicing fitness. Teach physical education at High School for the Gifted – Ho Chi Minh City National University."
+          ],
+     "imgsrc": "img/trainers/trainer2.png"
+     },
+     {
+     "name": "Dương Thị Lắm",
+     "class": "Aerobic",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“My greatest joy is to inspire my students in the fusion of movement and music, workout and happiness. I teach from the heart, so it is a very personal satisfaction when my students love working out in our GX classes so much that they want to become GX instructors too. Looking out at the exuberant energy and the smiling faces of my students is something I cannot live without!”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Lắm has passionately taught GX classes for five years at CFYC. In addition to motivating and inspiring her students, Mint enjoys biking, rock climbing, hanging out with friends, traveling, and reading."
+          ],
+     "imgsrc": "img/trainers/trainer3.png"
+     },
+     {
+     "name": "Hoàng Liên Bích",
+     "class": "Aerobic",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Inspiring my students to create and maintain a healthy workout is a critical aspect of living a beautiful and optimistic life. I want my clients to possess the energy, happiness, and confidence that will enhance their daily life. My passion is to motivate each individual with a working partnership that delivers the desired results.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Bich has trained with master instructors both in Vietnam and around the world. Her passion for sports, fitness, and bodybuilding is the center of her life. She enjoys the research of new, challenging exercises and advancing her knowledge of personal fitness."
+          ],
+     "imgsrc": "img/trainers/trainer4.png"
+     },
+     {
+     "name": "Phan Hoàng Vũ",
+     "class": "Aerobic",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Each day is a journey of moving to the music with happy people. How can I not love my life? My passion is my work  – bright with laughter and smiling faces glowing from the exuberant dancing workouts. These moments bring me fulfillment and endless pride.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "During his five years of dance and fitness, Tyler has choreographed and performed manylive shows. He is a certified trainer of BodyBalance, BodyPump, BodyJam by Les Mills and Zumba Fitness. He loves to support his colleagues at CFYC and taking part in GroupX performances."
+          ],
+     "imgsrc": "img/trainers/trainer5.png"
+     },
+     {
+     "name": "Phạm Thu Hiền",
      "class": "Yoga",
-     "description" :"abc abc",
-     "imgsrc": "person.jpg"
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	},
-	{
-     "name": " ",
-     "class": " ",
-     "description" :" ",
-     "imgsrc": "img/trainers/ ... "
-	}
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Yoga has been a guiding force in my life since the day I was born in Rishikesh, India, the world’s yoga capital. It is my desire for my students to experience yoga beyond their expectations and to become calm with a peaceful and optimistic mind.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Hien has studied with many yoga gurus but is especially thankful for his experiences with Shri Bharat Singh (yoga teacher for Kaivalyadhama) and Bramachari Rudra Dev, one of the main disciples of Shri B.K.S Iyenger. Assim has practiced yoga for more than 15 years. "
+          ],
+     "imgsrc": "img/trainers/trainer6.png"
+     },
+     {
+     "name": "Nguyễn Thị Hoa",
+     "class": "Yoga",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Yoga has been a guiding force in my life since the day I was born in Rishikesh, India, the world’s yoga capital. It is my desire for my students to experience yoga beyond their expectations and to become calm with a peaceful and optimistic mind. Seeing the enhanced energy, health, and happiness of my students is a gift that is given to me everyday in a new and exciting way.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Hoa has studied with many yoga gurus but is especially thankful for his experiences with Shri Bharat Singh (yoga teacher for Kaivalyadhama) and Bramachari Rudra Dev, one of the main disciples of Shri B.K.S Iyenger. Assim has practiced yoga for more than 15 years. "
+          ],
+     "imgsrc": "img/trainers/trainer7.png"
+     },
+     {
+     "name": "Mai Thị Thu Thủy",
+     "class": "Yoga",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“Yoga has been a guiding force in my life since the day I was born in Rishikesh, India, the world’s yoga capital. It is my desire for my students to experience yoga beyond their expectations and to become calm with a peaceful and optimistic mind. Seeing the enhanced energy, health, and happiness of my students is a gift that is given to me everyday in a new and exciting way.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Thuy has studied with many yoga gurus but is especially thankful for his experiences with Shri Bharat Singh (yoga teacher for Kaivalyadhama) and Bramachari Rudra Dev, one of the main disciples of Shri B.K.S Iyenger. Assim has practiced yoga for more than 15 years. "
+          ],
+     "imgsrc": "img/trainers/trainer8.png"
+     },
+     {
+     "name": "Võ Thanh Tùng",
+     "class": "Martial Art",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“I love to share my passion for dance. When the music makes your body move, your feet jam, and you just can’t stop the pulsating vibration flowing through your body, that’s what I call the Sensation of Dance. It’s inspiring to see my students having FUN, being happy, working hard, becoming healthier, and enjoying life.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Tung has practiced form since the age of 5. His first mentor, his father, is a master of martial arts who taught him to train hard, to keep his head up when he loses and - above all - to never give up. Vu was a Youth Champion (2001-2005) in the Vietnam traditional martial arts union and went on to become a National Champion in Vietnam traditional martial arts."
+          ],
+     "imgsrc": "img/trainers/trainer9.png"
+     },
+     {
+     "name": "Đỗ Khắc Vương",
+     "class": "Martial Art",
+     "description" : [
+          "TRAINING STYLE & SPECIALTY:",
+          "“It is my desire that after our training sessions you will be in great health and have a passion for martial arts; you will know that it is possible to not only dream of the body that you want, but to have it. I want you to experience the spirit of the samurai.”",
+          "QUALIFICATION:",
+          "Bachelor degree by Ho Chi Minh University of Physical & Sports Education. CFYC Personal Trainer Certificate. CPR Certificate.",
+          "EXPERIENCE:",
+          "Vuong has more than 10 years of experience in MMA and from the age of five has devoted his life to the study of martial arts. He has studied with many martial art masters, including Mr. Nguyen Phuoc Toan, former Master Trainer of the Vietnam martial arts team."
+          ],
+     "imgsrc": "img/trainers/trainer10.png"
+     }
 ]

@@ -1,12 +1,8 @@
 <div ng-controller="ServiceController">
 
-    <section id="service-topimg">
+    <div class="jumbotron">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 hidden-xs hidden-sm">
-                    <img src="img\service-top-img.png" class="img-responsive">
-                </div>
-            </div>
+            <img src="img\images.jpg" class="img-responsive img-rounded hidden-sm hidden-xs">
         </div>
     </div>
 
@@ -23,26 +19,7 @@
                         <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active">
                             <h4>{{tab.contentHead1}}</h4>
                             <p>{{tab.contentBody1}}</p>
-                            <br/>
-                            <!-- <div class="gridStyle" ng-grid="tab.table"> -->
-                            <!-- <table ng-table="tab.table" class="table ng-table-responsive">
-                                <tr ng-repeat="exercise in tab.table.data">
-                                    <td data-title="'Name'">
-                                        {{exercise.name}}
-                                    </td>
-                                    <td data-title="'Description'">
-                                        {{exercise.desc}}
-                                    </td>
-                                </tr>
-                            </table> -->
                             <table st-table="tab.table" class="table table-striped">
-                                <!-- <thead>
-                                    <tr class="text-center">
-                                        <th></th>
-                                        <th>Program Name</th>
-                                        <th>Description</th>
-                                    </tr>
-                                </thead> -->
                                 <tbody>
                                     <tr ng-repeat="row in tab.table">
                                         <td>{{row.name}}</td>
@@ -50,11 +27,12 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            </div>
                             <h4>{{tab.contentHead2}}</h4>
                             <p>{{tab.contentBody2}}</p>
+                            </br>
                             <h4>{{tab.contentHead3}}</h4>
                             <p>{{tab.contentBody3}}</p>
+                            </br>
                             <h4>{{tab.contentHead4}}</h4>
                             <p>{{tab.contentBody4}}</p>
                         </tab>
